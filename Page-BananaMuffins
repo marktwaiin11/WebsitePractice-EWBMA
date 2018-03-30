@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+
+<title>Banana muffin recipe</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/3/w3.css">
+<!-- Add icon library -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+body{
+  background-color: #75EC6F;
+}
+  .dropbtn {
+    background-color: #75EC6F;
+    color: black;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+}
+/* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+/* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Links inside the dropdown */
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+/* Change color of dropdown links on hover */
+.dropdown-content a:hover {background-color: #f1f1f1 }
+
+/* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* Change the background color of the dropdown button when the dropdown content is shown */
+.dropdown:hover .dropbtn {
+    background-color: #18D80E  ;
+}
+#h3{
+  font-family: cursive;
+  text-align: center; 
+  font-size: 35px;
+}
+</style>
+
+<body>
+  <!-- dropdown navigation bar-->
+  <div class="dropdown">
+    <button class="dropbtn"><i class="fa fa-bars"></i></button>
+    <div class="dropdown-content">
+      <a href="#">Home</a>
+      <a href="#">Recipes</a>
+      <a href="#">About</a>
+    </div>
+  </div>
+  <h3 id="h3">Banana Chocolate Chip Muffins</h3>
+
+</body>
+
+
+</html>
